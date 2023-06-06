@@ -1,0 +1,40 @@
+.first{
+  margin: auto;
+  width: 150px;
+  min-height: 300px;
+  box-shadow: 2px 2px 5px rgb(223, 207, 207);
+  .first_image{
+    width: 150px;
+    height: 150px;
+    border: 1px black;
+    
+    // &:hover{
+    //   color: black;
+    //   filter: brightness(120%);
+    //   padding: 5px;
+    //   background-color: #ffffff;
+    // }
+  } 
+  .item{
+    margin: 10px;
+    
+    .title{
+      font-size: 15px;
+    }
+   
+    .price{
+      padding-top: 5px;
+      font-size: 15px;
+      font-weight: bold;
+    }  
+    .deskrip{
+      width: 120px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; 
+      padding-top: 5px;
+      font-size: 15px;
+    }
+  }
+  
+}
